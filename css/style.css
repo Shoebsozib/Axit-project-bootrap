@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global css */
+p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif !important;
+    color: rgb(134, 135, 139);
+    line-height: 24px;
+}
+
+
+h2{
+    font-size: 36px;
+    font-family: "Raleway";
+
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif !important;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.underline{
+    width: 75px;
+    height: 2px;
+}
+
+/* header css code */
+
+header{
+    background: black;
+    padding: 15px 0;
+}
+
+header .nav-item{
+    padding: 0px 12px;
+}
+
+
+.navbar .nav-item .nav-link{
+    color: white;
+    position: relative;
+}
+.nav-item .nav-link::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #ff9b51;
+    color: #ff9b51;
+    transition: 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.nav-item .nav-link:hover::after{
+    transform: scaleX(1);
+}
+
+/* banner-section css start */
+
+.banner-section{
+    width: 100%;
+    background: url(../img/bg1.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-section .content-inner h1{
+    font-size: 70px;  
+    font-weight: 700; 
+    color: white; 
+}
+
+.banner-section .content-inner h1 span{
+    font-size: 70px;  
+    font-weight: 700; 
+    color: #ff8b38; 
+}
+
+.banner-section .content-inner h2{
+    font-size: 36px;
+    font-family: "Raleway";
+    color: white;
+    width: 74%;
+}
+
+.banner-section .content-inner .underline{
+    background: white;
+    margin: 30px 0px;
+}
+
+.banner-section .content-inner p{
+    width: 69%;
+    color: #bbbcbc;
+    font-family: "Raleway";
+    font-size: 16px;
+    
+}
+
+.banner-section .content-inner .btns{
+    margin-top: 30px;
+}
+
+
+.banner-section .content-inner .btns .btn-info{
+    background: transparent;
+    border-radius: 0 !important;
+    color: white;
+    border: 1px solid white ;
+    font-weight: 600;
+    padding: 8px 35px;
+}
+
+.banner-section .content-inner .btns .btn-info:hover{
+    background: #ff9b51;
+    border-radius: 0 !important;
+    color: white;
+    border: 1px solid #ff9b51 ;
+    font-weight: 600;
+    padding: 8px 35px;
+}
+
+.cus-height{
+    height: 100vh;
+}
+/* banner-section card css */
+
+form{
+    width: 62%;
+}
+
+.card{
+    border: none;
+}
+
+.card .card-header{
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.card .card-header h4{
+    font-family: "OpenSans";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card .card-header h4 span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+
+.mb-3 .form-control{
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 0%;
+    padding: 20px 10px;
+    color: #c1c1c1;
+}
+
+.card-footer{
+    background: #ff9b51;
+    border: none;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+}
+
+/* social-media css */
+
+.social-media{
+    width: 100%;
+    height: 10%;
+    border-bottom: 3px solid #cccccc;
+}
+
+.social-inner{
+    padding-top: 20px;
+}
+
+
+
+.social-icons{
+    text-align: right;
+    padding-top: 40px;
+}
+
+.social-media .social-icons i{
+    font-size: 45px;
+    color: #cccccc;
+    padding-left: 50px;
+    transform: 0.4s;
+   
+    
+}
+
+.social-media .social-icons i:hover{
+    font-size: 45px;
+    color: #ff8b38;
+    padding-left: 50px;
+    transform: 0.4s;
+   
+    
+}
+
+/* tab section css start */
+.tab-section{
+    padding: 80px 0px;
+    background-color: #f5f5f5;
+}
+
+.nav button{
+    width: 85px;
+    padding: 30px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav button:hover{
+    color: white;
+}
+
+
+button.nav-link{
+    background-color: #333333;
+}
+
+.tab1{
+    border-radius: 4px 4px 0px 0px !important;
+    border-bottom: 1px solid #c7c7c7;
+}
+.tab2{
+    border-radius: 0px !important;
+    border-bottom: 1px solid #c7c7c7;
+}
+.tab3{
+    border-radius: 0px 0px 4px 4px !important;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #ff8b38;
+}
+
+.tab-content {
+    margin-left: 75px;
+}
+
+.tab-content h4{
+    text-align: left;
+}
+
+.tab-content .btns2 a{
+    margin-top: 6%;
+    background: #ff9b51;
+    border-radius: 4px !important;
+    color: white;
+    border: 1px solid #ff9b51 ;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+.tab-content .btns2 a:hover{
+    margin-top: 6%;
+    background: transparent;
+    border-radius: 4px !important;
+    color: #333333;
+    border: 1px solid #ff9b51 ;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+.image-bg2{
+    text-align: right;
+}
+
+
+
+ /* sublist-section css start */
+
+ .content .underline{
+    background-color: #ff9b51;
+    margin: 15px 0px;
+    width: 40px;
+    transition: 0.5s;
+ }
+ .content:hover .underline{
+    background-color: #ff9b51;
+    margin: 15px 0px;
+    width: 125px;
+    transition: 0.5s;
+ }
+.content h4{
+    font-family: "OpenSans";
+    font-weight: 700;
+}
+
+.content p{
+    margin-bottom: 40px;
+}
+
+.sublist-section{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+
+.next-content{
+    display: flex;
+}
+
+.next-content h6{
+    font-weight: 700;
+}
+
+
+
+.next-content .left i{
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+    transform: 0.4s;
+}
+
+.next-content .left i:hover{
+    background: #ff8b38;
+    color: white;
+    border: 2px solid #ff8b38;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+    transform: 0.4s;
+}
+
+/* standerd picture section css */
+.picture-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f5f5f5;
+}
+
+.picture-content .underline{
+    background-color: #ff9b51;
+    margin: 15px 0px;
+    width: 40px;
+    transition: 0.5s;
+ }
+
+ .picture-content:hover .underline{
+    background-color: #ff9b51;
+    margin: 15px 0px;
+    width: 210px;
+    transition: 0.5s;
+ }
+ 
+.picture-bg4{
+    text-align: right;
+}
+
+/* awesome css start */
+
+.awesome{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.awesome .awesome-title{
+    font-family: "Raleway";
+    text-align: center;
+}
+
+
+
+.awesome .underline {
+    width: 50px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.awesome:hover .underline {
+    width: 200px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.awesome-icons{
+    margin-top: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.awesome-icons i{
+    font-size: 20px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    padding: 19px 24px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    transform: 0.4s;
+}
+
+.awesome-icons i:hover{
+    background: #ff8b38;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #ff8b38;
+    padding: 19px 24px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    transform: 0.4s;
+}
+
+
+.awesome-icons h4{
+    font-family: "OpenSans";
+    margin-bottom: 20px;
+}
+.awesome-icons p{
+    font-family: "OpenSans";
+}
+
+
+.awesome-icons .keybord i{
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 30px;
+    transform: 0.4s;
+}
+
+.awesome-icons .keybord i:hover{
+    color: white;
+    border: 2px solid #ff8b38;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 30px;
+    transform: 0.4s;
+}
+
+
+/*pricing-section css start */
+
+.pricing-section{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #f5f5f5;
+}
+
+.pricing-section .pricing-title{
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.pricing-section .pricing-title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+
+.pricing-section .underline {
+    width: 50px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.pricing-section:hover .underline {
+    width: 200px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.cus-row{
+    margin-bottom: 45px;
+}
+
+/* card customiz */
+
+.price-card{
+    width: 90%;
+}
+
+.price-card .card-header{
+    background: #333333;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 15px 0 7px;
+}
+
+
+.price-card .card-header h3{
+    font-size: 20px; 
+    font-family: "Open Sans", sans-serif !important;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.price-card .card-body{
+    background: #333333;
+    border-bottom: 5px solid #ff8b38;
+}
+
+.price-card .card-body h1{
+    font-size: 94px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.price-card .card-body h1 span{
+    font-size: 35px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+.price-card .card-body p{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+}
+.price-card .card-footer{
+    background: white;
+    padding: 0;
+    border-bottom: none !important;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: #b1b2b4;
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color) none;
+}
+
+/*card2 ar jonno css */
+
+.cus-body{
+    border-bottom: 0px solid;
+}
+.cus-list{
+    background: #ff8b38;
+    color: white;
+}
+
+
+
+/* testimonial section css start */
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.testimonial .testimonial-title{
+    text-align: center;
+}
+
+.testimonial-title .underline {
+    width: 50px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.testimonial-title:hover .underline {
+    width: 200px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.testimonial .parent{
+    position: relative;
+    margin: 50px 0 20px;
+    width: 67%;
+    background: #f5f5f5;
+    padding: 20px 15px 10px;
+}
+
+.testimonial .parent p{
+    font-style: italic;
+}
+
+.testimonial .parent .child{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    transform: rotate(45deg);
+    background: #f5f5f5;
+    bottom: -9px;
+    left: 16px;
+
+}
+
+.testimonial .intro{
+    display: flex;
+}
+
+.testimonial .intro .profile{
+    margin-right: 20px;
+}
+
+/* stylish section css start */
+.stylish{
+    width: 100%;
+    background: url(../img/bg5.png);
+    padding: 80px 0;
+}
+
+.stylish .style-title{
+    text-align: center;
+}
+
+.stylish .style-title h2{
+    color: white;
+}
+
+.stylish .style-title .underline{
+    width: 50px;
+    height: 2px;
+    background: #ffffff;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.stylish .style-title:hover .underline{
+    width: 240px;
+    height: 2px;
+    background: #ffffff;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.stylish .style-title p{
+    color: #bcbbb7;
+    font-family: "Raleway" !important;
+    font-size: 16px;
+    margin: 32px 0px;
+}
+
+.stylish .style-title .stylish-btns .btn-info{
+    background: transparent;
+    border-radius: 0 !important;
+    color: white;
+    border: 1px solid white ;
+    font-weight: 600;
+    padding: 8px 35px;
+}
+.stylish .style-title .stylish-btns .btn-info:hover{
+    background: #ff9b51;
+    border-radius: 0 !important;
+    color: white;
+    border: 1px solid #ff9b51 ;
+    font-weight: 600;
+    padding: 8px 35px;
+}
+/* contact section css  */
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+}
+.contact-title{
+    text-align: center;
+}
+
+.contact .contact-title{
+    text-align: center;
+}
+
+.contact-title .underline {
+    width: 50px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+
+.contact-title:hover .underline {
+    width: 200px;
+    height: 2px;
+    background: #ff9b51;
+    margin: 25px auto 25px;
+    transition: 0.5s;
+}
+.contact form{
+    width: 100%;
+}
+
+.contact .form-inner{
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+
+    
+}
+.contact .for-left{
+    flex-basis: 50%;
+}
+
+.contact .for-right{
+    flex-basis: 50%;
+}
+
+.contact .for-left input{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif !important;
+    color: #bdbdbd;
+}
+
+
+.contact .for-right textarea{
+    width: 100%;
+    height: 88%;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+    margin: 5px 0 0;
+}
+.contact .contact-btn{
+    text-align: center;
+    border-radius: 4px ;
+}
+
+.contact .contact-btn input{
+    border-radius: 4px ;
+    background: #ff9b51;
+    color: white;
+    border: 1px solid #ff9b51;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    margin-top: 30px;
+    padding: 10px 25px;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.contact .contact-btn input:hover{
+    background: transparent;
+    color: #ff9b51;
+    transition: 0.5s;
+}
+
+/* bottme section css */
+.bottme{
+    width: 100%;
+    padding: 20px 0; 
+    background: #000000;
+}
+
+.bottme .bottme-icons{
+    margin: 12px 0 12px;
+    text-align: center;
+}
+.bottme i{
+    color: #cccccc;
+    padding: 5px 20px;
+    font-size: 30px;
+    transform: 0.5s;
+}
+
+.bottme i:hover{
+    color: #ff9b51;
+    transform: 0.5s;
+}
+
+
+.bottme p{
+    text-align: center;
+}
